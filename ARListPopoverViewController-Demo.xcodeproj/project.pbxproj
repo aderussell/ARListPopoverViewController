@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB50E9151997D65A00A61DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9141997D65A00A61DFE /* Foundation.framework */; };
+		AB50E9171997D65A00A61DFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9161997D65A00A61DFE /* CoreGraphics.framework */; };
+		AB50E9191997D65A00A61DFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9181997D65A00A61DFE /* UIKit.framework */; };
+		AB50E91F1997D65A00A61DFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB50E91D1997D65A00A61DFE /* InfoPlist.strings */; };
+		AB50E9211997D65A00A61DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E9201997D65A00A61DFE /* main.m */; };
+		AB50E9251997D65A00A61DFE /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E9241997D65A00A61DFE /* ARAppDelegate.m */; };
+		AB50E9281997D65A00A61DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB50E9261997D65A00A61DFE /* Main.storyboard */; };
+		AB50E92B1997D65A00A61DFE /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E92A1997D65A00A61DFE /* ARViewController.m */; };
+		AB50E92D1997D65A00A61DFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB50E92C1997D65A00A61DFE /* Images.xcassets */; };
+		AB50E9341997D65A00A61DFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9331997D65A00A61DFE /* XCTest.framework */; };
+		AB50E9351997D65A00A61DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9141997D65A00A61DFE /* Foundation.framework */; };
+		AB50E9361997D65A00A61DFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9181997D65A00A61DFE /* UIKit.framework */; };
+		AB50E93E1997D65A00A61DFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB50E93C1997D65A00A61DFE /* InfoPlist.strings */; };
+		AB50E9401997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E93F1997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB50E9371997D65A00A61DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB50E9091997D65A00A61DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB50E9101997D65A00A61DFE;
+			remoteInfo = "ARListPopoverViewController-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB50E9111997D65A00A61DFE /* ARListPopoverViewController-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARListPopoverViewController-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB50E9141997D65A00A61DFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB50E9161997D65A00A61DFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB50E9181997D65A00A61DFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB50E91C1997D65A00A61DFE /* ARListPopoverViewController-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARListPopoverViewController-Demo-Info.plist"; sourceTree = "<group>"; };
+		AB50E91E1997D65A00A61DFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB50E9201997D65A00A61DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB50E9221997D65A00A61DFE /* ARListPopoverViewController-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARListPopoverViewController-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		AB50E9231997D65A00A61DFE /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		AB50E9241997D65A00A61DFE /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		AB50E9271997D65A00A61DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB50E9291997D65A00A61DFE /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		AB50E92A1997D65A00A61DFE /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		AB50E92C1997D65A00A61DFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB50E9321997D65A00A61DFE /* ARListPopoverViewController-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARListPopoverViewController-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB50E9331997D65A00A61DFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB50E93B1997D65A00A61DFE /* ARListPopoverViewController-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARListPopoverViewController-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		AB50E93D1997D65A00A61DFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB50E93F1997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARListPopoverViewController_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB50E90E1997D65A00A61DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB50E9171997D65A00A61DFE /* CoreGraphics.framework in Frameworks */,
+				AB50E9191997D65A00A61DFE /* UIKit.framework in Frameworks */,
+				AB50E9151997D65A00A61DFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50E92F1997D65A00A61DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB50E9341997D65A00A61DFE /* XCTest.framework in Frameworks */,
+				AB50E9361997D65A00A61DFE /* UIKit.framework in Frameworks */,
+				AB50E9351997D65A00A61DFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB50E9081997D65A00A61DFE = {
+			isa = PBXGroup;
+			children = (
+				AB50E91A1997D65A00A61DFE /* ARListPopoverViewController-Demo */,
+				AB50E9391997D65A00A61DFE /* ARListPopoverViewController-DemoTests */,
+				AB50E9131997D65A00A61DFE /* Frameworks */,
+				AB50E9121997D65A00A61DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB50E9121997D65A00A61DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB50E9111997D65A00A61DFE /* ARListPopoverViewController-Demo.app */,
+				AB50E9321997D65A00A61DFE /* ARListPopoverViewController-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB50E9131997D65A00A61DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB50E9141997D65A00A61DFE /* Foundation.framework */,
+				AB50E9161997D65A00A61DFE /* CoreGraphics.framework */,
+				AB50E9181997D65A00A61DFE /* UIKit.framework */,
+				AB50E9331997D65A00A61DFE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB50E91A1997D65A00A61DFE /* ARListPopoverViewController-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AB50E9231997D65A00A61DFE /* ARAppDelegate.h */,
+				AB50E9241997D65A00A61DFE /* ARAppDelegate.m */,
+				AB50E9261997D65A00A61DFE /* Main.storyboard */,
+				AB50E9291997D65A00A61DFE /* ARViewController.h */,
+				AB50E92A1997D65A00A61DFE /* ARViewController.m */,
+				AB50E92C1997D65A00A61DFE /* Images.xcassets */,
+				AB50E91B1997D65A00A61DFE /* Supporting Files */,
+			);
+			path = "ARListPopoverViewController-Demo";
+			sourceTree = "<group>";
+		};
+		AB50E91B1997D65A00A61DFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB50E91C1997D65A00A61DFE /* ARListPopoverViewController-Demo-Info.plist */,
+				AB50E91D1997D65A00A61DFE /* InfoPlist.strings */,
+				AB50E9201997D65A00A61DFE /* main.m */,
+				AB50E9221997D65A00A61DFE /* ARListPopoverViewController-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB50E9391997D65A00A61DFE /* ARListPopoverViewController-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB50E93F1997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m */,
+				AB50E93A1997D65A00A61DFE /* Supporting Files */,
+			);
+			path = "ARListPopoverViewController-DemoTests";
+			sourceTree = "<group>";
+		};
+		AB50E93A1997D65A00A61DFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB50E93B1997D65A00A61DFE /* ARListPopoverViewController-DemoTests-Info.plist */,
+				AB50E93C1997D65A00A61DFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB50E9101997D65A00A61DFE /* ARListPopoverViewController-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB50E9431997D65A00A61DFE /* Build configuration list for PBXNativeTarget "ARListPopoverViewController-Demo" */;
+			buildPhases = (
+				AB50E90D1997D65A00A61DFE /* Sources */,
+				AB50E90E1997D65A00A61DFE /* Frameworks */,
+				AB50E90F1997D65A00A61DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARListPopoverViewController-Demo";
+			productName = "ARListPopoverViewController-Demo";
+			productReference = AB50E9111997D65A00A61DFE /* ARListPopoverViewController-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB50E9311997D65A00A61DFE /* ARListPopoverViewController-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB50E9461997D65A00A61DFE /* Build configuration list for PBXNativeTarget "ARListPopoverViewController-DemoTests" */;
+			buildPhases = (
+				AB50E92E1997D65A00A61DFE /* Sources */,
+				AB50E92F1997D65A00A61DFE /* Frameworks */,
+				AB50E9301997D65A00A61DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB50E9381997D65A00A61DFE /* PBXTargetDependency */,
+			);
+			name = "ARListPopoverViewController-DemoTests";
+			productName = "ARListPopoverViewController-DemoTests";
+			productReference = AB50E9321997D65A00A61DFE /* ARListPopoverViewController-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB50E9091997D65A00A61DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Adrian Russell";
+				TargetAttributes = {
+					AB50E9311997D65A00A61DFE = {
+						TestTargetID = AB50E9101997D65A00A61DFE;
+					};
+				};
+			};
+			buildConfigurationList = AB50E90C1997D65A00A61DFE /* Build configuration list for PBXProject "ARListPopoverViewController-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB50E9081997D65A00A61DFE;
+			productRefGroup = AB50E9121997D65A00A61DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB50E9101997D65A00A61DFE /* ARListPopoverViewController-Demo */,
+				AB50E9311997D65A00A61DFE /* ARListPopoverViewController-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB50E90F1997D65A00A61DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB50E92D1997D65A00A61DFE /* Images.xcassets in Resources */,
+				AB50E91F1997D65A00A61DFE /* InfoPlist.strings in Resources */,
+				AB50E9281997D65A00A61DFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50E9301997D65A00A61DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB50E93E1997D65A00A61DFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB50E90D1997D65A00A61DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB50E9211997D65A00A61DFE /* main.m in Sources */,
+				AB50E92B1997D65A00A61DFE /* ARViewController.m in Sources */,
+				AB50E9251997D65A00A61DFE /* ARAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50E92E1997D65A00A61DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB50E9401997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB50E9381997D65A00A61DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB50E9101997D65A00A61DFE /* ARListPopoverViewController-Demo */;
+			targetProxy = AB50E9371997D65A00A61DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB50E91D1997D65A00A61DFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB50E91E1997D65A00A61DFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB50E9261997D65A00A61DFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB50E9271997D65A00A61DFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB50E93C1997D65A00A61DFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB50E93D1997D65A00A61DFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB50E9411997D65A00A61DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AB50E9421997D65A00A61DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB50E9441997D65A00A61DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Prefix.pch";
+				INFOPLIST_FILE = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB50E9451997D65A00A61DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Prefix.pch";
+				INFOPLIST_FILE = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB50E9471997D65A00A61DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARListPopoverViewController-Demo.app/ARListPopoverViewController-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARListPopoverViewController-DemoTests/ARListPopoverViewController-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB50E9481997D65A00A61DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARListPopoverViewController-Demo.app/ARListPopoverViewController-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Prefix.pch";
+				INFOPLIST_FILE = "ARListPopoverViewController-DemoTests/ARListPopoverViewController-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB50E90C1997D65A00A61DFE /* Build configuration list for PBXProject "ARListPopoverViewController-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB50E9411997D65A00A61DFE /* Debug */,
+				AB50E9421997D65A00A61DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB50E9431997D65A00A61DFE /* Build configuration list for PBXNativeTarget "ARListPopoverViewController-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB50E9441997D65A00A61DFE /* Debug */,
+				AB50E9451997D65A00A61DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB50E9461997D65A00A61DFE /* Build configuration list for PBXNativeTarget "ARListPopoverViewController-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB50E9471997D65A00A61DFE /* Debug */,
+				AB50E9481997D65A00A61DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB50E9091997D65A00A61DFE /* Project object */;
+}
