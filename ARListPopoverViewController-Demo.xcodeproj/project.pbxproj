@@ -16,27 +16,12 @@
 		AB50E9281997D65A00A61DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB50E9261997D65A00A61DFE /* Main.storyboard */; };
 		AB50E92B1997D65A00A61DFE /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E92A1997D65A00A61DFE /* ARViewController.m */; };
 		AB50E92D1997D65A00A61DFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB50E92C1997D65A00A61DFE /* Images.xcassets */; };
-		AB50E9341997D65A00A61DFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9331997D65A00A61DFE /* XCTest.framework */; };
-		AB50E9351997D65A00A61DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9141997D65A00A61DFE /* Foundation.framework */; };
-		AB50E9361997D65A00A61DFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9181997D65A00A61DFE /* UIKit.framework */; };
-		AB50E93E1997D65A00A61DFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB50E93C1997D65A00A61DFE /* InfoPlist.strings */; };
-		AB50E9401997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E93F1997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m */; };
 		AB50E94C1997D6B500A61DFE /* ARListPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E94B1997D6B500A61DFE /* ARListPopoverController.m */; };
 		AB50E9501997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E94F1997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.m */; };
 		AB50E9541998F29700A61DFE /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E9531998F29700A61DFE /* World.m */; };
 		AB50E9571998FA2000A61DFE /* WorldListPopoverDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E9561998FA2000A61DFE /* WorldListPopoverDataSource.m */; };
 		AB50E9591999102400A61DFE /* flag-usa.png in Resources */ = {isa = PBXBuildFile; fileRef = AB50E9581999102400A61DFE /* flag-usa.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AB50E9371997D65A00A61DFE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB50E9091997D65A00A61DFE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB50E9101997D65A00A61DFE;
-			remoteInfo = "ARListPopoverViewController-Demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AB50E9111997D65A00A61DFE /* ARListPopoverViewController-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARListPopoverViewController-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,11 +38,6 @@
 		AB50E9291997D65A00A61DFE /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
 		AB50E92A1997D65A00A61DFE /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
 		AB50E92C1997D65A00A61DFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AB50E9321997D65A00A61DFE /* ARListPopoverViewController-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARListPopoverViewController-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB50E9331997D65A00A61DFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AB50E93B1997D65A00A61DFE /* ARListPopoverViewController-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARListPopoverViewController-DemoTests-Info.plist"; sourceTree = "<group>"; };
-		AB50E93D1997D65A00A61DFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB50E93F1997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARListPopoverViewController_DemoTests.m; sourceTree = "<group>"; };
 		AB50E94A1997D6B500A61DFE /* ARListPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARListPopoverController.h; sourceTree = "<group>"; };
 		AB50E94B1997D6B500A61DFE /* ARListPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARListPopoverController.m; sourceTree = "<group>"; };
 		AB50E94E1997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARListPopoverControllerSimpleDataSource.h; sourceTree = "<group>"; };
@@ -80,16 +60,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB50E92F1997D65A00A61DFE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB50E9341997D65A00A61DFE /* XCTest.framework in Frameworks */,
-				AB50E9361997D65A00A61DFE /* UIKit.framework in Frameworks */,
-				AB50E9351997D65A00A61DFE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -98,7 +68,6 @@
 			children = (
 				AB50E9491997D66800A61DFE /* ARListPopoverViewController */,
 				AB50E91A1997D65A00A61DFE /* ARListPopoverViewController-Demo */,
-				AB50E9391997D65A00A61DFE /* ARListPopoverViewController-DemoTests */,
 				AB50E9131997D65A00A61DFE /* Frameworks */,
 				AB50E9121997D65A00A61DFE /* Products */,
 			);
@@ -108,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				AB50E9111997D65A00A61DFE /* ARListPopoverViewController-Demo.app */,
-				AB50E9321997D65A00A61DFE /* ARListPopoverViewController-DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +87,6 @@
 				AB50E9141997D65A00A61DFE /* Foundation.framework */,
 				AB50E9161997D65A00A61DFE /* CoreGraphics.framework */,
 				AB50E9181997D65A00A61DFE /* UIKit.framework */,
-				AB50E9331997D65A00A61DFE /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,24 +114,6 @@
 				AB50E91D1997D65A00A61DFE /* InfoPlist.strings */,
 				AB50E9201997D65A00A61DFE /* main.m */,
 				AB50E9221997D65A00A61DFE /* ARListPopoverViewController-Demo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AB50E9391997D65A00A61DFE /* ARListPopoverViewController-DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				AB50E93F1997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m */,
-				AB50E93A1997D65A00A61DFE /* Supporting Files */,
-			);
-			path = "ARListPopoverViewController-DemoTests";
-			sourceTree = "<group>";
-		};
-		AB50E93A1997D65A00A61DFE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AB50E93B1997D65A00A61DFE /* ARListPopoverViewController-DemoTests-Info.plist */,
-				AB50E93C1997D65A00A61DFE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -219,24 +168,6 @@
 			productReference = AB50E9111997D65A00A61DFE /* ARListPopoverViewController-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB50E9311997D65A00A61DFE /* ARListPopoverViewController-DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB50E9461997D65A00A61DFE /* Build configuration list for PBXNativeTarget "ARListPopoverViewController-DemoTests" */;
-			buildPhases = (
-				AB50E92E1997D65A00A61DFE /* Sources */,
-				AB50E92F1997D65A00A61DFE /* Frameworks */,
-				AB50E9301997D65A00A61DFE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB50E9381997D65A00A61DFE /* PBXTargetDependency */,
-			);
-			name = "ARListPopoverViewController-DemoTests";
-			productName = "ARListPopoverViewController-DemoTests";
-			productReference = AB50E9321997D65A00A61DFE /* ARListPopoverViewController-DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,11 +177,6 @@
 				CLASSPREFIX = AR;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Adrian Russell";
-				TargetAttributes = {
-					AB50E9311997D65A00A61DFE = {
-						TestTargetID = AB50E9101997D65A00A61DFE;
-					};
-				};
 			};
 			buildConfigurationList = AB50E90C1997D65A00A61DFE /* Build configuration list for PBXProject "ARListPopoverViewController-Demo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -266,7 +192,6 @@
 			projectRoot = "";
 			targets = (
 				AB50E9101997D65A00A61DFE /* ARListPopoverViewController-Demo */,
-				AB50E9311997D65A00A61DFE /* ARListPopoverViewController-DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,14 +205,6 @@
 				AB50E91F1997D65A00A61DFE /* InfoPlist.strings in Resources */,
 				AB50E9591999102400A61DFE /* flag-usa.png in Resources */,
 				AB50E9281997D65A00A61DFE /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB50E9301997D65A00A61DFE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB50E93E1997D65A00A61DFE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,23 +225,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB50E92E1997D65A00A61DFE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB50E9401997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AB50E9381997D65A00A61DFE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB50E9101997D65A00A61DFE /* ARListPopoverViewController-Demo */;
-			targetProxy = AB50E9371997D65A00A61DFE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB50E91D1997D65A00A61DFE /* InfoPlist.strings */ = {
@@ -341,14 +242,6 @@
 				AB50E9271997D65A00A61DFE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AB50E93C1997D65A00A61DFE /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB50E93D1997D65A00A61DFE /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -454,46 +347,6 @@
 			};
 			name = Release;
 		};
-		AB50E9471997D65A00A61DFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARListPopoverViewController-Demo.app/ARListPopoverViewController-Demo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ARListPopoverViewController-DemoTests/ARListPopoverViewController-DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AB50E9481997D65A00A61DFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARListPopoverViewController-Demo.app/ARListPopoverViewController-Demo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Prefix.pch";
-				INFOPLIST_FILE = "ARListPopoverViewController-DemoTests/ARListPopoverViewController-DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -511,15 +364,6 @@
 			buildConfigurations = (
 				AB50E9441997D65A00A61DFE /* Debug */,
 				AB50E9451997D65A00A61DFE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB50E9461997D65A00A61DFE /* Build configuration list for PBXNativeTarget "ARListPopoverViewController-DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB50E9471997D65A00A61DFE /* Debug */,
-				AB50E9481997D65A00A61DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
