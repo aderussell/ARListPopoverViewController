@@ -21,6 +21,11 @@
 		AB50E9361997D65A00A61DFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB50E9181997D65A00A61DFE /* UIKit.framework */; };
 		AB50E93E1997D65A00A61DFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB50E93C1997D65A00A61DFE /* InfoPlist.strings */; };
 		AB50E9401997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E93F1997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m */; };
+		AB50E94C1997D6B500A61DFE /* ARListPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E94B1997D6B500A61DFE /* ARListPopoverController.m */; };
+		AB50E9501997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E94F1997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.m */; };
+		AB50E9541998F29700A61DFE /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E9531998F29700A61DFE /* World.m */; };
+		AB50E9571998FA2000A61DFE /* WorldListPopoverDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB50E9561998FA2000A61DFE /* WorldListPopoverDataSource.m */; };
+		AB50E9591999102400A61DFE /* flag-usa.png in Resources */ = {isa = PBXBuildFile; fileRef = AB50E9581999102400A61DFE /* flag-usa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		AB50E93B1997D65A00A61DFE /* ARListPopoverViewController-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARListPopoverViewController-DemoTests-Info.plist"; sourceTree = "<group>"; };
 		AB50E93D1997D65A00A61DFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB50E93F1997D65A00A61DFE /* ARListPopoverViewController_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARListPopoverViewController_DemoTests.m; sourceTree = "<group>"; };
+		AB50E94A1997D6B500A61DFE /* ARListPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARListPopoverController.h; sourceTree = "<group>"; };
+		AB50E94B1997D6B500A61DFE /* ARListPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARListPopoverController.m; sourceTree = "<group>"; };
+		AB50E94E1997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARListPopoverControllerSimpleDataSource.h; sourceTree = "<group>"; };
+		AB50E94F1997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARListPopoverControllerSimpleDataSource.m; sourceTree = "<group>"; };
+		AB50E9521998F29700A61DFE /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		AB50E9531998F29700A61DFE /* World.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = World.m; sourceTree = "<group>"; };
+		AB50E9551998FA2000A61DFE /* WorldListPopoverDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldListPopoverDataSource.h; sourceTree = "<group>"; };
+		AB50E9561998FA2000A61DFE /* WorldListPopoverDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldListPopoverDataSource.m; sourceTree = "<group>"; };
+		AB50E9581999102400A61DFE /* flag-usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag-usa.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,7 @@
 		AB50E9081997D65A00A61DFE = {
 			isa = PBXGroup;
 			children = (
+				AB50E9491997D66800A61DFE /* ARListPopoverViewController */,
 				AB50E91A1997D65A00A61DFE /* ARListPopoverViewController-Demo */,
 				AB50E9391997D65A00A61DFE /* ARListPopoverViewController-DemoTests */,
 				AB50E9131997D65A00A61DFE /* Frameworks */,
@@ -112,6 +127,8 @@
 		AB50E91A1997D65A00A61DFE /* ARListPopoverViewController-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				AB958C0E19991C2A00AEF2FA /* Simple Structure Example */,
+				AB50E9511998F27000A61DFE /* Complex Structure Example */,
 				AB50E9231997D65A00A61DFE /* ARAppDelegate.h */,
 				AB50E9241997D65A00A61DFE /* ARAppDelegate.m */,
 				AB50E9261997D65A00A61DFE /* Main.storyboard */,
@@ -150,6 +167,36 @@
 				AB50E93C1997D65A00A61DFE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB50E9491997D66800A61DFE /* ARListPopoverViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB50E94A1997D6B500A61DFE /* ARListPopoverController.h */,
+				AB50E94B1997D6B500A61DFE /* ARListPopoverController.m */,
+			);
+			path = ARListPopoverViewController;
+			sourceTree = "<group>";
+		};
+		AB50E9511998F27000A61DFE /* Complex Structure Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB50E9521998F29700A61DFE /* World.h */,
+				AB50E9531998F29700A61DFE /* World.m */,
+				AB50E9551998FA2000A61DFE /* WorldListPopoverDataSource.h */,
+				AB50E9561998FA2000A61DFE /* WorldListPopoverDataSource.m */,
+				AB50E9581999102400A61DFE /* flag-usa.png */,
+			);
+			name = "Complex Structure Example";
+			sourceTree = "<group>";
+		};
+		AB958C0E19991C2A00AEF2FA /* Simple Structure Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB50E94E1997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.h */,
+				AB50E94F1997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.m */,
+			);
+			name = "Simple Structure Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +278,7 @@
 			files = (
 				AB50E92D1997D65A00A61DFE /* Images.xcassets in Resources */,
 				AB50E91F1997D65A00A61DFE /* InfoPlist.strings in Resources */,
+				AB50E9591999102400A61DFE /* flag-usa.png in Resources */,
 				AB50E9281997D65A00A61DFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,8 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB50E9571998FA2000A61DFE /* WorldListPopoverDataSource.m in Sources */,
+				AB50E9541998F29700A61DFE /* World.m in Sources */,
+				AB50E9501997F21300A61DFE /* ARListPopoverControllerSimpleDataSource.m in Sources */,
 				AB50E9211997D65A00A61DFE /* main.m in Sources */,
 				AB50E92B1997D65A00A61DFE /* ARViewController.m in Sources */,
+				AB50E94C1997D6B500A61DFE /* ARListPopoverController.m in Sources */,
 				AB50E9251997D65A00A61DFE /* ARAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +434,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Prefix.pch";
 				INFOPLIST_FILE = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +448,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Prefix.pch";
 				INFOPLIST_FILE = "ARListPopoverViewController-Demo/ARListPopoverViewController-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -459,6 +513,7 @@
 				AB50E9451997D65A00A61DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB50E9461997D65A00A61DFE /* Build configuration list for PBXNativeTarget "ARListPopoverViewController-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +522,7 @@
 				AB50E9481997D65A00A61DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
